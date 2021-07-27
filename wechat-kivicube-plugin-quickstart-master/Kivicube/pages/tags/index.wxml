@@ -1,0 +1,12 @@
+<!--Kivicube/pages/tags/index.wxml-->
+<!--<text>暂无场景体验</text>-->
+
+<canvas
+  type="webgl"
+  id="webgl"
+  style="width: 100%; height: 720px;"
+  bindtouchstart="touchStart"
+  bindtouchmove="touchMove"
+  bindtouchend="touchEnd"
+></canvas>
+

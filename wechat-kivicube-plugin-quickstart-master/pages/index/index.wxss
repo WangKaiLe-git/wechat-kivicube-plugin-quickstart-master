@@ -1,0 +1,12 @@
+
+.collectScene {
+  width:max-content;
+  margin: 50rpx auto;
+  background: #0fc3ff60;
+  padding: 20rpx;
+  text-align: center;
+  font-weight:bold;
+  color: #3b0606;
+  border:1px solid;
+  border-radius:30px;
+}

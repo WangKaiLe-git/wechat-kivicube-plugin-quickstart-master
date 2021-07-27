@@ -1,0 +1,13 @@
+<kivi-cloudar collectionId="b46rfc" class="layer" bind:error="error" bind:photo="photo">
+  <cover-view  class="cameras" >
+<cover-view class="cover_back">
+    <cover-view class="hint">test</cover-view>
+    <cover-image class="scan_back" src="./scan_back.png"></cover-image>
+    <cover-view class="scan_lo">
+      <cover-image class="scan_img trans-y" src="./scan_lo.png"></cover-image>
+    </cover-view>
+  </cover-view>
+</cover-view>
+</kivi-cloudar>
+
+

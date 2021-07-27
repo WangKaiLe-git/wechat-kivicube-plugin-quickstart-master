@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "Kivicube/pages/scene/index",
+    "Kivicube/pages/collection/index",
+    "Kivicube/pages/tags/index",
+
+    "Kivicube/pages/ThreeJS/index",
+
+    "Kivicube/pages/DemoCCC/index"
+
+     ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "体验场景选择",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {
+    "kivicube": {
+      "version": "1.5.7",
+      "provider": "wx3bbab3920eabccb2"
+    }
+   
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

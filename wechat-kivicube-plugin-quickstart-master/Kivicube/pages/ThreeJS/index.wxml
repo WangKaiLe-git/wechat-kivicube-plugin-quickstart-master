@@ -1,0 +1,16 @@
+
+<canvas  
+  type="webgl"
+  id="webgl"
+  style="width: 100%; height: 360px;">
+  </canvas>
+  
+<kivi-cloudar collectionId="b46rfc" class="layer" bind:error="error" bindphoto="photo"></kivi-cloudar>
+
+<cover-view class="layer">
+  <webgl wx-if="{{giftVisibility}}" fps="30" class="gift"></webgl>
+  <cover-view class="button" bindtap="start">开启云识别</cover-view>
+  <cover-view class="button" bindtap="stop">关闭云识别</cover-view>
+  <cover-view class="text">云识别结果：{{result}}</cover-view>
+</cover-view>
+

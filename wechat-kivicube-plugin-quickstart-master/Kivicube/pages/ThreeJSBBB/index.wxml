@@ -1,0 +1,15 @@
+<kivi-cloudar collectionId="b46rfc" class="layer" bind:error="error"></kivi-cloudar>
+
+
+
+<text>...................... BBBBBBBBBBBBBBBBBBBBBBB</text>
+<canvas  
+  type="webgl"
+  id="webgl"
+  style="width: 750rpx; height: 374rpx; box-sizing: border-box; top: 528rpx; position: relative">
+  </canvas>
+<cover-view class="layer">
+   
+  <webgl wx-if="{{giftVisibility}}" fps="30" class="gift" style="position: absolute; left: 358rpx; top: 596rpx"></webgl>
+  
+</cover-view>

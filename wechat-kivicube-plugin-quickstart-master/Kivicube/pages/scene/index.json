@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "kivicube-scene": "plugin://kivicube/kivicube-scene"
+  },
+  "navigationBarTitleText": "体验场景",
+  "disableScroll": true
+}

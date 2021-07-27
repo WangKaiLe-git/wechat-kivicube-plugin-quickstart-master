@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container" style="background: azure">
+  <view class="collectScene" bind:tap="openSence">打开场景</view>
+  <view class="collectScene" bind:tap="openCollectScene">打开合辑</view>
+  <view class="collectScene" bind:tap="openTagsScene">打开贴纸互动</view>
+
+  <view class="collectScene" bind:tap="openTagsAScene">组合测试</view>
+
+  <view class="collectScene" bind:tap="openThreeScene">打开Three.js</view>
+
+  <view class="collectScene" bind:tap="openBBBScene">测试BBB</view>
+  
+  <view class="collectScene" bind:tap="openCCCScene">新建Demo</view>
+
+</view>
